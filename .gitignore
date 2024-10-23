@@ -1,0 +1,10 @@
+# Ignore build artifacts
+a.out
+
+# Ignore IDE files
+.vscode/
+
+# Ignore asset caches or temp files
+/assets/image/*.tmp
+/assets/sound/*.tmp
+

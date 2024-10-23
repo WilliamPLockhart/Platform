@@ -1,7 +1,9 @@
-#include <iostream>
+#include "game.hpp"
 
-int main()
+int main(int argc, char *argv[])
 {
-    std::cout << "hello\n";
-    return 0;
+    DEBUG_LOG("Game is starting...");
+    game *gamestate = new game;
+    gamestate->run();
+    return STATUS_SUCCESS;
 }
