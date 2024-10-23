@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/game.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/game.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/game.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/main.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/main.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/main.cpp"
+}
+]

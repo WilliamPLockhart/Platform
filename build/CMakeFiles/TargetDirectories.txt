@@ -1,0 +1,5 @@
+/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles/platformer.dir
+/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles/package.dir
+/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles/package_source.dir
+/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/platformer.dir/game.cpp.o CMakeFiles/platformer.dir/main.cpp.o -o platformer  -L/usr/lib/x86_64-linux-gnu  -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf 
