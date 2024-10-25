@@ -1,6 +1,7 @@
 #pragma once
-#include "global.hpp"
-
+#include "loads/loadsManager.hpp"
+#include "levelState/levelStateManager.hpp"
+#include "assets/assetManager.hpp"
 class game
 {
 public:
@@ -10,4 +11,7 @@ public:
 
 private:
     bool m_running;
+    loadManager *m_loadManager;
+    assetManager *m_assetManager;
+    levelState *m_levelStateManager;
 };

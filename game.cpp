@@ -3,6 +3,9 @@
 game::game()
 {
     m_running = true;
+    m_loadManager = new loadManager;
+    m_assetManager = new assetManager;
+    m_levelStateManager = new levelState;
 }
 
 void game::run()
@@ -19,4 +22,5 @@ void game::run()
 
 void game::update()
 {
+    m_running = false;
 }

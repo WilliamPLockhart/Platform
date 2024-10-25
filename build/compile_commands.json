@@ -8,5 +8,60 @@
   "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
   "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/main.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/main.cpp",
   "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/loads/loadsManager.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/loads/loadsManager.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/loads/loadsManager.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/loads/mainMenu.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/loads/mainMenu.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/loads/mainMenu.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/loads/newGame.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/eventHandler.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/eventHandler.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/hero.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/map.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/map.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/map.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/monster.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/monster.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/monster.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/npc.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/npc.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/npc.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/levelState/window.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/window.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/levelState/window.cpp"
+},
+{
+  "directory": "/mnt/c/Users/willl/Documents/CSCI/Platform/build",
+  "command": "/usr/bin/c++ -DDEBUG -I/usr/include/SDL2 -g -std=gnu++17 -o CMakeFiles/platformer.dir/assets/assetManager.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/assets/assetManager.cpp",
+  "file": "/mnt/c/Users/willl/Documents/CSCI/Platform/assets/assetManager.cpp"
 }
 ]

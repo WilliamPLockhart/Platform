@@ -149,6 +149,30 @@ platformer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/build
 .PHONY : platformer/fast
 
+assets/assetManager.o: assets/assetManager.cpp.o
+.PHONY : assets/assetManager.o
+
+# target to build an object file
+assets/assetManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/assets/assetManager.cpp.o
+.PHONY : assets/assetManager.cpp.o
+
+assets/assetManager.i: assets/assetManager.cpp.i
+.PHONY : assets/assetManager.i
+
+# target to preprocess a source file
+assets/assetManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/assets/assetManager.cpp.i
+.PHONY : assets/assetManager.cpp.i
+
+assets/assetManager.s: assets/assetManager.cpp.s
+.PHONY : assets/assetManager.s
+
+# target to generate assembly for a file
+assets/assetManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/assets/assetManager.cpp.s
+.PHONY : assets/assetManager.cpp.s
+
 game.o: game.cpp.o
 .PHONY : game.o
 
@@ -172,6 +196,246 @@ game.s: game.cpp.s
 game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/game.cpp.s
 .PHONY : game.cpp.s
+
+levelState/eventHandler.o: levelState/eventHandler.cpp.o
+.PHONY : levelState/eventHandler.o
+
+# target to build an object file
+levelState/eventHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o
+.PHONY : levelState/eventHandler.cpp.o
+
+levelState/eventHandler.i: levelState/eventHandler.cpp.i
+.PHONY : levelState/eventHandler.i
+
+# target to preprocess a source file
+levelState/eventHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/eventHandler.cpp.i
+.PHONY : levelState/eventHandler.cpp.i
+
+levelState/eventHandler.s: levelState/eventHandler.cpp.s
+.PHONY : levelState/eventHandler.s
+
+# target to generate assembly for a file
+levelState/eventHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/eventHandler.cpp.s
+.PHONY : levelState/eventHandler.cpp.s
+
+levelState/hero.o: levelState/hero.cpp.o
+.PHONY : levelState/hero.o
+
+# target to build an object file
+levelState/hero.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/hero.cpp.o
+.PHONY : levelState/hero.cpp.o
+
+levelState/hero.i: levelState/hero.cpp.i
+.PHONY : levelState/hero.i
+
+# target to preprocess a source file
+levelState/hero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/hero.cpp.i
+.PHONY : levelState/hero.cpp.i
+
+levelState/hero.s: levelState/hero.cpp.s
+.PHONY : levelState/hero.s
+
+# target to generate assembly for a file
+levelState/hero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/hero.cpp.s
+.PHONY : levelState/hero.cpp.s
+
+levelState/levelStateManager.o: levelState/levelStateManager.cpp.o
+.PHONY : levelState/levelStateManager.o
+
+# target to build an object file
+levelState/levelStateManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o
+.PHONY : levelState/levelStateManager.cpp.o
+
+levelState/levelStateManager.i: levelState/levelStateManager.cpp.i
+.PHONY : levelState/levelStateManager.i
+
+# target to preprocess a source file
+levelState/levelStateManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.i
+.PHONY : levelState/levelStateManager.cpp.i
+
+levelState/levelStateManager.s: levelState/levelStateManager.cpp.s
+.PHONY : levelState/levelStateManager.s
+
+# target to generate assembly for a file
+levelState/levelStateManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.s
+.PHONY : levelState/levelStateManager.cpp.s
+
+levelState/map.o: levelState/map.cpp.o
+.PHONY : levelState/map.o
+
+# target to build an object file
+levelState/map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/map.cpp.o
+.PHONY : levelState/map.cpp.o
+
+levelState/map.i: levelState/map.cpp.i
+.PHONY : levelState/map.i
+
+# target to preprocess a source file
+levelState/map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/map.cpp.i
+.PHONY : levelState/map.cpp.i
+
+levelState/map.s: levelState/map.cpp.s
+.PHONY : levelState/map.s
+
+# target to generate assembly for a file
+levelState/map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/map.cpp.s
+.PHONY : levelState/map.cpp.s
+
+levelState/monster.o: levelState/monster.cpp.o
+.PHONY : levelState/monster.o
+
+# target to build an object file
+levelState/monster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/monster.cpp.o
+.PHONY : levelState/monster.cpp.o
+
+levelState/monster.i: levelState/monster.cpp.i
+.PHONY : levelState/monster.i
+
+# target to preprocess a source file
+levelState/monster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/monster.cpp.i
+.PHONY : levelState/monster.cpp.i
+
+levelState/monster.s: levelState/monster.cpp.s
+.PHONY : levelState/monster.s
+
+# target to generate assembly for a file
+levelState/monster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/monster.cpp.s
+.PHONY : levelState/monster.cpp.s
+
+levelState/npc.o: levelState/npc.cpp.o
+.PHONY : levelState/npc.o
+
+# target to build an object file
+levelState/npc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/npc.cpp.o
+.PHONY : levelState/npc.cpp.o
+
+levelState/npc.i: levelState/npc.cpp.i
+.PHONY : levelState/npc.i
+
+# target to preprocess a source file
+levelState/npc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/npc.cpp.i
+.PHONY : levelState/npc.cpp.i
+
+levelState/npc.s: levelState/npc.cpp.s
+.PHONY : levelState/npc.s
+
+# target to generate assembly for a file
+levelState/npc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/npc.cpp.s
+.PHONY : levelState/npc.cpp.s
+
+levelState/window.o: levelState/window.cpp.o
+.PHONY : levelState/window.o
+
+# target to build an object file
+levelState/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/window.cpp.o
+.PHONY : levelState/window.cpp.o
+
+levelState/window.i: levelState/window.cpp.i
+.PHONY : levelState/window.i
+
+# target to preprocess a source file
+levelState/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/window.cpp.i
+.PHONY : levelState/window.cpp.i
+
+levelState/window.s: levelState/window.cpp.s
+.PHONY : levelState/window.s
+
+# target to generate assembly for a file
+levelState/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/levelState/window.cpp.s
+.PHONY : levelState/window.cpp.s
+
+loads/loadsManager.o: loads/loadsManager.cpp.o
+.PHONY : loads/loadsManager.o
+
+# target to build an object file
+loads/loadsManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/loadsManager.cpp.o
+.PHONY : loads/loadsManager.cpp.o
+
+loads/loadsManager.i: loads/loadsManager.cpp.i
+.PHONY : loads/loadsManager.i
+
+# target to preprocess a source file
+loads/loadsManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/loadsManager.cpp.i
+.PHONY : loads/loadsManager.cpp.i
+
+loads/loadsManager.s: loads/loadsManager.cpp.s
+.PHONY : loads/loadsManager.s
+
+# target to generate assembly for a file
+loads/loadsManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/loadsManager.cpp.s
+.PHONY : loads/loadsManager.cpp.s
+
+loads/mainMenu.o: loads/mainMenu.cpp.o
+.PHONY : loads/mainMenu.o
+
+# target to build an object file
+loads/mainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/mainMenu.cpp.o
+.PHONY : loads/mainMenu.cpp.o
+
+loads/mainMenu.i: loads/mainMenu.cpp.i
+.PHONY : loads/mainMenu.i
+
+# target to preprocess a source file
+loads/mainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/mainMenu.cpp.i
+.PHONY : loads/mainMenu.cpp.i
+
+loads/mainMenu.s: loads/mainMenu.cpp.s
+.PHONY : loads/mainMenu.s
+
+# target to generate assembly for a file
+loads/mainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/mainMenu.cpp.s
+.PHONY : loads/mainMenu.cpp.s
+
+loads/newGame.o: loads/newGame.cpp.o
+.PHONY : loads/newGame.o
+
+# target to build an object file
+loads/newGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/newGame.cpp.o
+.PHONY : loads/newGame.cpp.o
+
+loads/newGame.i: loads/newGame.cpp.i
+.PHONY : loads/newGame.i
+
+# target to preprocess a source file
+loads/newGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/newGame.cpp.i
+.PHONY : loads/newGame.cpp.i
+
+loads/newGame.s: loads/newGame.cpp.s
+.PHONY : loads/newGame.s
+
+# target to generate assembly for a file
+loads/newGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/platformer.dir/build.make CMakeFiles/platformer.dir/loads/newGame.cpp.s
+.PHONY : loads/newGame.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -208,9 +472,42 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... platformer"
+	@echo "... assets/assetManager.o"
+	@echo "... assets/assetManager.i"
+	@echo "... assets/assetManager.s"
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"
+	@echo "... levelState/eventHandler.o"
+	@echo "... levelState/eventHandler.i"
+	@echo "... levelState/eventHandler.s"
+	@echo "... levelState/hero.o"
+	@echo "... levelState/hero.i"
+	@echo "... levelState/hero.s"
+	@echo "... levelState/levelStateManager.o"
+	@echo "... levelState/levelStateManager.i"
+	@echo "... levelState/levelStateManager.s"
+	@echo "... levelState/map.o"
+	@echo "... levelState/map.i"
+	@echo "... levelState/map.s"
+	@echo "... levelState/monster.o"
+	@echo "... levelState/monster.i"
+	@echo "... levelState/monster.s"
+	@echo "... levelState/npc.o"
+	@echo "... levelState/npc.i"
+	@echo "... levelState/npc.s"
+	@echo "... levelState/window.o"
+	@echo "... levelState/window.i"
+	@echo "... levelState/window.s"
+	@echo "... loads/loadsManager.o"
+	@echo "... loads/loadsManager.i"
+	@echo "... loads/loadsManager.s"
+	@echo "... loads/mainMenu.o"
+	@echo "... loads/mainMenu.i"
+	@echo "... loads/mainMenu.s"
+	@echo "... loads/newGame.o"
+	@echo "... loads/newGame.i"
+	@echo "... loads/newGame.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

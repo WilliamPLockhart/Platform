@@ -97,19 +97,195 @@ CMakeFiles/platformer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/main.cpp -o CMakeFiles/platformer.dir/main.cpp.s
 
+CMakeFiles/platformer.dir/loads/loadsManager.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/loads/loadsManager.cpp.o: ../loads/loadsManager.cpp
+CMakeFiles/platformer.dir/loads/loadsManager.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/platformer.dir/loads/loadsManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/loads/loadsManager.cpp.o -MF CMakeFiles/platformer.dir/loads/loadsManager.cpp.o.d -o CMakeFiles/platformer.dir/loads/loadsManager.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/loads/loadsManager.cpp
+
+CMakeFiles/platformer.dir/loads/loadsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/loads/loadsManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/loads/loadsManager.cpp > CMakeFiles/platformer.dir/loads/loadsManager.cpp.i
+
+CMakeFiles/platformer.dir/loads/loadsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/loads/loadsManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/loads/loadsManager.cpp -o CMakeFiles/platformer.dir/loads/loadsManager.cpp.s
+
+CMakeFiles/platformer.dir/loads/mainMenu.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/loads/mainMenu.cpp.o: ../loads/mainMenu.cpp
+CMakeFiles/platformer.dir/loads/mainMenu.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/platformer.dir/loads/mainMenu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/loads/mainMenu.cpp.o -MF CMakeFiles/platformer.dir/loads/mainMenu.cpp.o.d -o CMakeFiles/platformer.dir/loads/mainMenu.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/loads/mainMenu.cpp
+
+CMakeFiles/platformer.dir/loads/mainMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/loads/mainMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/loads/mainMenu.cpp > CMakeFiles/platformer.dir/loads/mainMenu.cpp.i
+
+CMakeFiles/platformer.dir/loads/mainMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/loads/mainMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/loads/mainMenu.cpp -o CMakeFiles/platformer.dir/loads/mainMenu.cpp.s
+
+CMakeFiles/platformer.dir/loads/newGame.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/loads/newGame.cpp.o: ../loads/newGame.cpp
+CMakeFiles/platformer.dir/loads/newGame.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/platformer.dir/loads/newGame.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/loads/newGame.cpp.o -MF CMakeFiles/platformer.dir/loads/newGame.cpp.o.d -o CMakeFiles/platformer.dir/loads/newGame.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.cpp
+
+CMakeFiles/platformer.dir/loads/newGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/loads/newGame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.cpp > CMakeFiles/platformer.dir/loads/newGame.cpp.i
+
+CMakeFiles/platformer.dir/loads/newGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/loads/newGame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.cpp -o CMakeFiles/platformer.dir/loads/newGame.cpp.s
+
+CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o: ../levelState/eventHandler.cpp
+CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o -MF CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o.d -o CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/eventHandler.cpp
+
+CMakeFiles/platformer.dir/levelState/eventHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/eventHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/eventHandler.cpp > CMakeFiles/platformer.dir/levelState/eventHandler.cpp.i
+
+CMakeFiles/platformer.dir/levelState/eventHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/eventHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/eventHandler.cpp -o CMakeFiles/platformer.dir/levelState/eventHandler.cpp.s
+
+CMakeFiles/platformer.dir/levelState/hero.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/hero.cpp.o: ../levelState/hero.cpp
+CMakeFiles/platformer.dir/levelState/hero.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/platformer.dir/levelState/hero.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/hero.cpp.o -MF CMakeFiles/platformer.dir/levelState/hero.cpp.o.d -o CMakeFiles/platformer.dir/levelState/hero.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.cpp
+
+CMakeFiles/platformer.dir/levelState/hero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/hero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.cpp > CMakeFiles/platformer.dir/levelState/hero.cpp.i
+
+CMakeFiles/platformer.dir/levelState/hero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/hero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.cpp -o CMakeFiles/platformer.dir/levelState/hero.cpp.s
+
+CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o: ../levelState/levelStateManager.cpp
+CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o -MF CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o.d -o CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.cpp
+
+CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.cpp > CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.i
+
+CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.cpp -o CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.s
+
+CMakeFiles/platformer.dir/levelState/map.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/map.cpp.o: ../levelState/map.cpp
+CMakeFiles/platformer.dir/levelState/map.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/platformer.dir/levelState/map.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/map.cpp.o -MF CMakeFiles/platformer.dir/levelState/map.cpp.o.d -o CMakeFiles/platformer.dir/levelState/map.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/map.cpp
+
+CMakeFiles/platformer.dir/levelState/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/map.cpp > CMakeFiles/platformer.dir/levelState/map.cpp.i
+
+CMakeFiles/platformer.dir/levelState/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/map.cpp -o CMakeFiles/platformer.dir/levelState/map.cpp.s
+
+CMakeFiles/platformer.dir/levelState/monster.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/monster.cpp.o: ../levelState/monster.cpp
+CMakeFiles/platformer.dir/levelState/monster.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/platformer.dir/levelState/monster.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/monster.cpp.o -MF CMakeFiles/platformer.dir/levelState/monster.cpp.o.d -o CMakeFiles/platformer.dir/levelState/monster.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/monster.cpp
+
+CMakeFiles/platformer.dir/levelState/monster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/monster.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/monster.cpp > CMakeFiles/platformer.dir/levelState/monster.cpp.i
+
+CMakeFiles/platformer.dir/levelState/monster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/monster.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/monster.cpp -o CMakeFiles/platformer.dir/levelState/monster.cpp.s
+
+CMakeFiles/platformer.dir/levelState/npc.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/npc.cpp.o: ../levelState/npc.cpp
+CMakeFiles/platformer.dir/levelState/npc.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/platformer.dir/levelState/npc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/npc.cpp.o -MF CMakeFiles/platformer.dir/levelState/npc.cpp.o.d -o CMakeFiles/platformer.dir/levelState/npc.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/npc.cpp
+
+CMakeFiles/platformer.dir/levelState/npc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/npc.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/npc.cpp > CMakeFiles/platformer.dir/levelState/npc.cpp.i
+
+CMakeFiles/platformer.dir/levelState/npc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/npc.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/npc.cpp -o CMakeFiles/platformer.dir/levelState/npc.cpp.s
+
+CMakeFiles/platformer.dir/levelState/window.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/levelState/window.cpp.o: ../levelState/window.cpp
+CMakeFiles/platformer.dir/levelState/window.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/platformer.dir/levelState/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/levelState/window.cpp.o -MF CMakeFiles/platformer.dir/levelState/window.cpp.o.d -o CMakeFiles/platformer.dir/levelState/window.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/window.cpp
+
+CMakeFiles/platformer.dir/levelState/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/levelState/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/window.cpp > CMakeFiles/platformer.dir/levelState/window.cpp.i
+
+CMakeFiles/platformer.dir/levelState/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/levelState/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/window.cpp -o CMakeFiles/platformer.dir/levelState/window.cpp.s
+
+CMakeFiles/platformer.dir/assets/assetManager.cpp.o: CMakeFiles/platformer.dir/flags.make
+CMakeFiles/platformer.dir/assets/assetManager.cpp.o: ../assets/assetManager.cpp
+CMakeFiles/platformer.dir/assets/assetManager.cpp.o: CMakeFiles/platformer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/platformer.dir/assets/assetManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platformer.dir/assets/assetManager.cpp.o -MF CMakeFiles/platformer.dir/assets/assetManager.cpp.o.d -o CMakeFiles/platformer.dir/assets/assetManager.cpp.o -c /mnt/c/Users/willl/Documents/CSCI/Platform/assets/assetManager.cpp
+
+CMakeFiles/platformer.dir/assets/assetManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformer.dir/assets/assetManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/willl/Documents/CSCI/Platform/assets/assetManager.cpp > CMakeFiles/platformer.dir/assets/assetManager.cpp.i
+
+CMakeFiles/platformer.dir/assets/assetManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformer.dir/assets/assetManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/willl/Documents/CSCI/Platform/assets/assetManager.cpp -o CMakeFiles/platformer.dir/assets/assetManager.cpp.s
+
 # Object files for target platformer
 platformer_OBJECTS = \
 "CMakeFiles/platformer.dir/game.cpp.o" \
-"CMakeFiles/platformer.dir/main.cpp.o"
+"CMakeFiles/platformer.dir/main.cpp.o" \
+"CMakeFiles/platformer.dir/loads/loadsManager.cpp.o" \
+"CMakeFiles/platformer.dir/loads/mainMenu.cpp.o" \
+"CMakeFiles/platformer.dir/loads/newGame.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/hero.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/map.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/monster.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/npc.cpp.o" \
+"CMakeFiles/platformer.dir/levelState/window.cpp.o" \
+"CMakeFiles/platformer.dir/assets/assetManager.cpp.o"
 
 # External object files for target platformer
 platformer_EXTERNAL_OBJECTS =
 
 platformer: CMakeFiles/platformer.dir/game.cpp.o
 platformer: CMakeFiles/platformer.dir/main.cpp.o
+platformer: CMakeFiles/platformer.dir/loads/loadsManager.cpp.o
+platformer: CMakeFiles/platformer.dir/loads/mainMenu.cpp.o
+platformer: CMakeFiles/platformer.dir/loads/newGame.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/hero.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/map.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/monster.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/npc.cpp.o
+platformer: CMakeFiles/platformer.dir/levelState/window.cpp.o
+platformer: CMakeFiles/platformer.dir/assets/assetManager.cpp.o
 platformer: CMakeFiles/platformer.dir/build.make
 platformer: CMakeFiles/platformer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable platformer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/willl/Documents/CSCI/Platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable platformer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/platformer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

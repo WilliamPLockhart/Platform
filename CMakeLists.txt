@@ -12,8 +12,11 @@ find_package(SDL2 REQUIRED)
 include_directories(/usr/include/SDL2)
 link_directories(/usr/lib/x86_64-linux-gnu)
 
-# Add the executable
-add_executable(platformer game.cpp main.cpp)
+# Add the executable    
+file(GLOB assetsCPP "assets/*.cpp")
+file(GLOB loadsCPP "loads/*.cpp")
+file(GLOB levelCPP "levelState/*.cpp")
+add_executable(platformer game.cpp main.cpp ${loadsCPP} ${levelCPP} ${assetsCPP})
 
 # Define DEBUG flag for Debug configuration
 target_compile_definitions(platformer PRIVATE $<$<CONFIG:Debug>:DEBUG>)

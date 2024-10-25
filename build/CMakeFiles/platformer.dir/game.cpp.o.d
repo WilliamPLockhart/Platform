@@ -2,7 +2,9 @@ CMakeFiles/platformer.dir/game.cpp.o: \
  /mnt/c/Users/willl/Documents/CSCI/Platform/game.cpp \
  /usr/include/stdc-predef.h \
  /mnt/c/Users/willl/Documents/CSCI/Platform/game.hpp \
- /mnt/c/Users/willl/Documents/CSCI/Platform/global.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/loads/loadsManager.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/loads/mainMenu.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/loads/../global.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -316,4 +318,13 @@ CMakeFiles/platformer.dir/game.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /usr/include/c++/11/condition_variable
+ /usr/include/c++/11/condition_variable \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/map.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/monster.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/npc.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/window.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/eventHandler.hpp \
+ /mnt/c/Users/willl/Documents/CSCI/Platform/assets/assetManager.hpp
