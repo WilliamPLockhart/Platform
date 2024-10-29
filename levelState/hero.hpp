@@ -5,6 +5,7 @@ class hero
 {
 public:
     hero();
+    ~hero();
 
 private:
 };

@@ -3,8 +3,9 @@
 
 class monster
 {
-    public:
+public:
     monster();
-    private:
+    ~monster();
 
+private:
 };

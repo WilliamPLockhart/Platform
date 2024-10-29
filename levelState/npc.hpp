@@ -5,6 +5,7 @@ class npc
 {
 public:
     npc();
+    ~npc();
 
 private:
 };

@@ -8,6 +8,7 @@ public:
     game();
     void update();
     void run();
+    void endGame();
 
 private:
     bool m_running;

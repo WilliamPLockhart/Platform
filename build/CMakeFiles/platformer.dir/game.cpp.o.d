@@ -318,7 +318,10 @@ CMakeFiles/platformer.dir/game.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/mutex \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/stl_queue.h \
  /mnt/c/Users/willl/Documents/CSCI/Platform/loads/newGame.hpp \
  /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/levelStateManager.hpp \
  /mnt/c/Users/willl/Documents/CSCI/Platform/levelState/hero.hpp \

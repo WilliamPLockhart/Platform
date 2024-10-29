@@ -5,6 +5,7 @@ class map
 {
 public:
     map();
+    ~map();
 
 private:
 };

@@ -9,8 +9,14 @@ class levelState
 {
 public:
     levelState();
+    ~levelState();
+    void render() { m_window->renderAll(); }
+    void handleInputs() { m_eventHandler->handleInputs(); }
+    bool getLevelStateStatus() { return m_levelStateStatus; }
+    void updateMangaer(bool *exitflag);
 
 private:
+    bool m_levelStateStatus;
     eventHandler *m_eventHandler;
     map *m_map;
     window *m_window;
