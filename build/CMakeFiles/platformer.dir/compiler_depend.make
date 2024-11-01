@@ -398,7 +398,16 @@ CMakeFiles/platformer.dir/assets/assetManager.cpp.o: ../assets/assetManager.cpp 
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h
 
 CMakeFiles/platformer.dir/game.cpp.o: ../game.cpp \
   /usr/include/stdc-predef.h \
@@ -800,6 +809,8 @@ CMakeFiles/platformer.dir/game.cpp.o: ../game.cpp \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
   ../loads/newGame.hpp \
   ../levelState/levelStateManager.hpp \
   ../levelState/hero.hpp \
@@ -808,7 +819,14 @@ CMakeFiles/platformer.dir/game.cpp.o: ../game.cpp \
   ../levelState/npc.hpp \
   ../levelState/window.hpp \
   ../levelState/eventHandler.hpp \
-  ../assets/assetManager.hpp
+  ../assets/assetManager.hpp \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h
 
 CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o: ../levelState/eventHandler.cpp \
   /usr/include/stdc-predef.h \
@@ -1207,7 +1225,9 @@ CMakeFiles/platformer.dir/levelState/eventHandler.cpp.o: ../levelState/eventHand
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/levelState/hero.cpp.o: ../levelState/hero.cpp \
   /usr/include/stdc-predef.h \
@@ -1606,7 +1626,9 @@ CMakeFiles/platformer.dir/levelState/hero.cpp.o: ../levelState/hero.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o: ../levelState/levelStateManager.cpp \
   /usr/include/stdc-predef.h \
@@ -2007,11 +2029,21 @@ CMakeFiles/platformer.dir/levelState/levelStateManager.cpp.o: ../levelState/leve
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
   ../levelState/map.hpp \
   ../levelState/monster.hpp \
   ../levelState/npc.hpp \
   ../levelState/window.hpp \
-  ../levelState/eventHandler.hpp
+  ../levelState/eventHandler.hpp \
+  ../assets/assetManager.hpp \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h
 
 CMakeFiles/platformer.dir/levelState/map.cpp.o: ../levelState/map.cpp \
   /usr/include/stdc-predef.h \
@@ -2410,7 +2442,9 @@ CMakeFiles/platformer.dir/levelState/map.cpp.o: ../levelState/map.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/levelState/monster.cpp.o: ../levelState/monster.cpp \
   /usr/include/stdc-predef.h \
@@ -2809,7 +2843,9 @@ CMakeFiles/platformer.dir/levelState/monster.cpp.o: ../levelState/monster.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/levelState/npc.cpp.o: ../levelState/npc.cpp \
   /usr/include/stdc-predef.h \
@@ -3208,7 +3244,9 @@ CMakeFiles/platformer.dir/levelState/npc.cpp.o: ../levelState/npc.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/levelState/window.cpp.o: ../levelState/window.cpp \
   /usr/include/stdc-predef.h \
@@ -3607,7 +3645,9 @@ CMakeFiles/platformer.dir/levelState/window.cpp.o: ../levelState/window.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/loads/loadsManager.cpp.o: ../loads/loadsManager.cpp \
   /usr/include/stdc-predef.h \
@@ -4008,6 +4048,8 @@ CMakeFiles/platformer.dir/loads/loadsManager.cpp.o: ../loads/loadsManager.cpp \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
   ../loads/newGame.hpp
 
 CMakeFiles/platformer.dir/loads/mainMenu.cpp.o: ../loads/mainMenu.cpp \
@@ -4407,7 +4449,9 @@ CMakeFiles/platformer.dir/loads/mainMenu.cpp.o: ../loads/mainMenu.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/loads/newGame.cpp.o: ../loads/newGame.cpp \
   /usr/include/stdc-predef.h \
@@ -4806,7 +4850,9 @@ CMakeFiles/platformer.dir/loads/newGame.cpp.o: ../loads/newGame.cpp \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
@@ -5208,6 +5254,8 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
   ../loads/newGame.hpp \
   ../levelState/levelStateManager.hpp \
   ../levelState/hero.hpp \
@@ -5216,7 +5264,14 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
   ../levelState/npc.hpp \
   ../levelState/window.hpp \
   ../levelState/eventHandler.hpp \
-  ../assets/assetManager.hpp
+  ../assets/assetManager.hpp \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h
 
 
 ../main.cpp:
@@ -5232,6 +5287,14 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
 ../levelState/hero.hpp:
 
 ../game.hpp:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/c++/11/bits/stl_stack.h:
+
+/usr/include/c++/11/stack:
 
 /usr/include/c++/11/bits/deque.tcc:
 
@@ -5310,6 +5373,8 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
 /usr/include/SDL2/SDL_sensor.h:
 
 /usr/include/SDL2/SDL_joystick.h:
+
+/usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/SDL2/SDL_scancode.h:
 
@@ -5394,6 +5459,8 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/wmmintrin.h:
 
 ../levelState/monster.hpp:
+
+/usr/include/c++/11/bits/unordered_map.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h:
 
@@ -5568,6 +5635,8 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/SDL2/SDL_events.h:
 
@@ -5823,6 +5892,8 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/clflushoptintrin.h:
 
+/usr/include/c++/11/bits/erase_if.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
@@ -5888,6 +5959,8 @@ CMakeFiles/platformer.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/basic_string.tcc:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/c++/11/iostream:
 
