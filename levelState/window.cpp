@@ -6,7 +6,7 @@ window::window()
     // initializes
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
     {
-        DEBUG_LOG("SDL could not initialize! SDL_Error:");
+        DEBUG_LOG("SDL could not initialize! SDL_Error: ");
         DEBUG_LOG(SDL_GetError());
         m_winOBJRunning = STATUS_ERROR;
         return;
@@ -54,3 +54,28 @@ void window::renderAll()
     SDL_RenderClear(m_ren);
     SDL_RenderPresent(m_ren);
 }
+
+void window::renderText()
+{
+    while (m_TextTTF.empty() == false)
+    {
+        auto TextTTF = m_TextTTF.top();
+        m_TextTTF.pop();
+        if (TextTTF.textSurface == nullptr)
+        {
+            continue;
+        }
+        SDL_Texture *textTexture = SDL_CreateTextureFromSurface(m_ren, TextTTF.textSurface);
+        if (TextTTF.textSurface)
+            SDL_FreeSurface(TextTTF.textSurface);
+
+        SDL_QueryTexture(textTexture, NULL, NULL, &TextTTF.rect.w, &TextTTF.rect.h);
+        SDL_RenderClear(m_ren);
+        SDL_RenderCopy(m_ren, textTexture, NULL, &TextTTF.rect);
+        SDL_RenderPresent(m_ren);
+    }
+}
+
+//  void window::renderSprites()
+// {
+// }

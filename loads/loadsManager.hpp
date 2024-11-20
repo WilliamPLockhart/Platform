@@ -6,6 +6,7 @@ class loadManager
 {
 public:
     loadManager();
+    ~loadManager();
 
 private:
     mainMenu *m_mainMenu;

@@ -12,6 +12,7 @@
 #include <mutex>
 #include <condition_variable>
 #include <queue>
+#include <stack>
 
 #ifdef DEBUG
 #define DEBUG_LOG(msg) LOG_INFO(msg)

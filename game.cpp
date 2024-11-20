@@ -1,11 +1,11 @@
 #include "game.hpp"
 
 game::game()
+    : m_loadManager(new loadManager),
+      m_assetManager(new assetManager),
+      m_levelStateManager(new levelState(m_assetManager))
 {
     m_running = true;
-    m_loadManager = new loadManager;
-    m_assetManager = new assetManager;
-    m_levelStateManager = new levelState;
     if (m_levelStateManager->getLevelStateStatus() == STATUS_ERROR)
         m_levelStateManager->~levelState();
 }

@@ -5,6 +5,7 @@ class mainMenu
 {
 public:
     mainMenu();
+    ~mainMenu();
 
 private:
 };

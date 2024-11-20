@@ -5,6 +5,7 @@ class newGame
 {
 public:
     newGame();
+    ~newGame();
 
 private:
 };
